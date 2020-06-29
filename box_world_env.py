@@ -5,7 +5,7 @@ from gym.spaces import Box
 import matplotlib.pyplot as plt
 from collections import deque
 
-from boxworld_gen import *
+from .boxworld_gen import *
 
 class BoxWorld(gym.Env):
     """Boxworld representation
